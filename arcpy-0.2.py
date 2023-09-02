@@ -7,9 +7,10 @@
 # python2.7
 """
 Description:
-    运用多进程技术导出图片
-    集成Tkinter
-    使用了多进程技术
+本工具基于ArcGIS自带arcpy库实现
+版本@0.2
+1.可使用命令行导出文件了
+[直接运行：python arcpy-0.2.py C:\Downloads\yumiko-arcpy --core 4 --res 300 --output_folder ./output_folder]
 """
 # ---------------------------------------------------------------------------
 from __future__ import absolute_import

@@ -1,0 +1,18 @@
+本工具基于ArcGIS自带arcpy库实现
+版本@0.2
+1.可使用命令行导出文件了
+[直接运行：python arcpy-0.2.py C:\Downloads\yumiko-arcpy --core 4 --res 300 --output_folder ./output_folder]
+
+版本@0.3
+1.可通过自动化读取配置文件批量输出图片
+[首次配置：python arcpy-0.3.py --configure]
+[直接运行：python arcpy-0.3.py]
+
+版本@0.3.2
+1.修复了可能遇到中文崩溃问题
+2.添加了一个导出进度的指示器
+[首次配置：python arcpy-0.3.2.py --configure]
+[直接运行：python arcpy-0.3.2.py]
+
+
+
